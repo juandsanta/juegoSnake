@@ -139,16 +139,47 @@ let bucle = setInterval(iniciarJuego, 150);
 cambiar_posicion_comida();
 document.addEventListener("keydown", moverCulebra);
 
-const flechas = document.getElementById('conjunto-flechas');
+
+/*const flechaIzq = document.querySelector('.fle-izq');
+const flechaArriba = document.querySelector('.fle-arriba');
+const flechaAbajo = document.querySelector('.fle-abajo');
+const flechaDer = document.querySelector('.fle-der');
+
+flechaIzq.addEventListener('click', () => {
+    if(velX != 1){
+        velX = -1;
+        velY = 0;
+    };
+});
+flechaArriba.addEventListener('click', () =>{
+    if(velY != 1) {
+        velX = 0;
+        velY = -1;
+    };
+});
+flechaAbajo.addEventListener('click', () => {
+    if(velY != -1) {
+        velX = 0;
+        velY = 1;
+    };
+});
+flechaDer.addEventListener('click', () => {
+    if(velX != -1) {
+        velX = 1;
+        velY = 0;
+    };
+});*/
+
+/*const flechas = document.getElementById('conjunto-flechas');
 flechas.addEventListener("click", (evento) => {
 
     let sentido = evento.target.getAttribute('id');
     if(sentido == 1 && velX != 1) {
         velX = -1;
         velY = 0;
-    } else if (sentido == 2 && velY != 1) {
+    } else if(sentido == 2 && velY != 1) {
         velX = 0;
-        velY = -1;
+        velY = -1; 
     } else if(sentido == 3 && velY != -1) {
         velX = 0;
         velY = 1;
@@ -156,7 +187,7 @@ flechas.addEventListener("click", (evento) => {
         velX = 1;
         velY = 0;
     };
-});
+});*/
 
 
 
