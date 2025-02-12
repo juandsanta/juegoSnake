@@ -38,10 +38,6 @@ body{
     border: 1px solid black;
 }
 
-
-
-
-
 .fle-izq:hover, .fle-arriba:hover, .fle-abajo:hover, .fle-der:hover{
     background: rgb(128, 128, 128);
 }
