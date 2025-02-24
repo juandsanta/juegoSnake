@@ -145,7 +145,7 @@ const iniciarJuego = function () {
         campo_juego.appendChild(snake);
     };
 };
-let bucle = setInterval(iniciarJuego, 150);
+let bucle = setInterval(iniciarJuego, 120);
 cambiar_posicion_comida();
 
 
